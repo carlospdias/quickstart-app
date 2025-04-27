@@ -20,18 +20,19 @@
   </properties>
 
   <dependencies>
-    {%- if cookiecutter.application_type == "mpa-thymeleaf" -%}
+    {% if cookiecutter.application_type == "mpa-thymeleaf" -%}
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
-	{% endif %}
+	  {% endif %}
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-    {%- if cookiecutter.use-liquibase == "yes" -%}
+
+    {% if cookiecutter.use_liquibase == "yes" -%}
     <dependency>
       <groupId>org.liquibase</groupId>
       <artifactId>liquibase-core</artifactId>
@@ -44,7 +45,8 @@
       <scope>runtime</scope>
       <optional>true</optional>
     </dependency>
-    {%- if cookiecutter.database_type == "oracle" -%}
+
+    {% if cookiecutter.database_type == "oracle" -%}
     <dependency>
       <groupId>com.oracle.database.jdbc</groupId>
       <artifactId>ojdbc11</artifactId>

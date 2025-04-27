@@ -7,16 +7,18 @@
     "short_description": "A sleek slideshow app that supports swipe gestures.",
     "application_type": ["backendapi", "thymeleaf","jte", "webserviceapi"],
     "database_type":["oracle", "postgres"],
-    "use-security":["yes", "no"],
-    "use-liquibase":["yes","no"],
-
+    "use_security":["yes", "no"],
+    "use_liquibase":["yes","no"],
+   
     "__prompts__": {
         "project_name": "Nomeie seu projeto com algo condizente com o modelo de negócio",
         "java_version": "Escolha a versão do java Adequado para esse projeto",
         "pkg_name": "Qual o nome do pacote. Algo como br.com.cpdias.aplicacao",
         "short_description": "Descreva o propósito da sua aplicação",
         "application_type": "Author full name",
-        "database_type": "Qual o tipo de banco de dados de dados será usado"
+        "database_type": "Qual o tipo de banco de dados de dados será usado",
+        "use_security": "Essa aplicação precisa de sergurança?",
+        "user_liquibase":"Será configurado um sistema de migração?"
     }
     
 }

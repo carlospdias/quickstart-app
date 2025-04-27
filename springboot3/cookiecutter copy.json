@@ -7,7 +7,9 @@
     "application_type": ["backendapi", "thymeleaf","jte", "webserviceapi"],
     "database":["oracle", "postgres"],
     "use-security":["yes", "no"],
-
+    "_extensions": [
+        "local_extensions.FoobarExtension"
+    ],
     "__prompts__": {
         "project_name": "Select your package name",
         "module_name": "Select your module name",
