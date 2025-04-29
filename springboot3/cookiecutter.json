@@ -14,7 +14,7 @@
         "java_version": "Versão do java",
         "pkg_name": "Nome do pacote",
         "short_description": "Propósito da sua aplicação",
-        "application_type": "Nome completo do autor",
+        "application_type": "Tipo de Aplicação",
         "database_type": "Gerenciador de banco de dados",
         "use_security": "Ativa sergurança?",
         "user_liquibase":"Vai Utilizar o Liquibase?"
