@@ -1,0 +1,7 @@
+package {{cookiecutter.pkg_name}};
+
+@SpringBootApplication
+@EnableCaching
+public class CacheConfig {
+
+}

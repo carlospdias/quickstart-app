@@ -3,11 +3,13 @@
     "java_version":["17","21","23"],
     "project_slug" :"{{ cookiecutter.project_name.lower().replace(' ',  '-').replace('_', '-') }}",
     "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}",
+    "package_dir": "{{cookiecutter.pkg_name|replace('.', '/')}}",
     "short_description": "Um aplicativo de apresentação de slides elegante que suporta gestos de deslizar.",
     "application_type": ["backendapi", "thymeleaf","jte", "webserviceapi"],
     "database_type":["oracle", "postgres"],
     "use_security":["yes", "no"],
     "use_liquibase":["yes","no"],
+    "use_cache":["yes", "no"],
    
     "__prompts__": {
         "project_name": "Nome do projeto",
@@ -17,7 +19,8 @@
         "application_type": "Tipo de Aplicação",
         "database_type": "Gerenciador de banco de dados",
         "use_security": "Ativa sergurança?",
-        "user_liquibase":"Vai Utilizar o Liquibase?"
+        "use_liquibase":"Vai Utilizar o Liquibase?",
+        "use_cache": "Quer configurar Cache Padrão?"
     }
     
 }
