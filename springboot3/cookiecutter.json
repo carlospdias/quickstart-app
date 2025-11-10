@@ -3,6 +3,7 @@
     "java_version":["17","21","23"],
     "project_slug" :"{{ cookiecutter.project_name.lower().replace(' ',  '-').replace('_', '-') }}",
     "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}",
+    "package_dir": "{{cookiecutter.pkg_name|replace('.', '/')}}",
     "short_description": "Um aplicativo de apresentação de slides elegante que suporta gestos de deslizar.",
     "application_type": ["backendapi", "thymeleaf","jte", "webserviceapi"],
     "database_type":["oracle", "postgres"],

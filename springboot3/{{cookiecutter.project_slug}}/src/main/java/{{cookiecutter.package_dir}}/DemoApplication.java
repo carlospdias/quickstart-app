@@ -1,4 +1,4 @@
-package br.com.cpdias.demo;
+package {{cookiecutter.pkg_name}};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
