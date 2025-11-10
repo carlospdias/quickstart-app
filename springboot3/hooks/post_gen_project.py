@@ -1,8 +1,10 @@
 import os
 import shutil
 
+
+project_dir = os.path.join(os.getcwd(), "{{ cookiecutter.project_slug }}")
 REMOVE_PATHS = [
-    '{% if cookiecutter.use_liquibase != "yes" %}src/main/resources/migracoes{% endif %}'
+    '{% if cookiecutter.use_liquibase != "yes" %}src/main/resources/migracoes{% endif %}',
 ]
 for path in REMOVE_PATHS:
     path = path.strip()

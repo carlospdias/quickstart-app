@@ -8,6 +8,7 @@
     "database_type":["oracle", "postgres"],
     "use_security":["yes", "no"],
     "use_liquibase":["yes","no"],
+    "use_cache":["yes", "no"],
    
     "__prompts__": {
         "project_name": "Nome do projeto",
@@ -17,7 +18,8 @@
         "application_type": "Tipo de Aplicação",
         "database_type": "Gerenciador de banco de dados",
         "use_security": "Ativa sergurança?",
-        "user_liquibase":"Vai Utilizar o Liquibase?"
+        "use_liquibase":"Vai Utilizar o Liquibase?",
+        "use_cache": "Quer configurar Cache Padrão?"
     }
     
 }
