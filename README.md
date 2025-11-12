@@ -2,6 +2,8 @@
 
 Templates for launching java applications using cookiecutter
 
+## Criação de ambiente
+
 ```sh
 python -m venv .venv
 .venv/Scripts/activate
