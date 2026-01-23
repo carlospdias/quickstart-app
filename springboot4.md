@@ -434,3 +434,8 @@ Links
  - https://www.youtube.com/watch?v=yh760wTFL_4&list=PLZV0a2jwt22v874ngZcWw3umP2yfsV9sK&index=13
  
  - https://www.youtube.com/watch?v=59twysAveKI
+
+
+## Outras fontes
+https://www.danvega.dev/blog/spring-boot-4-is-here
+
