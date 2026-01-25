@@ -438,6 +438,8 @@ Links
 
 ## Outras fontes
 https://www.danvega.dev/blog/spring-boot-4-is-here
+https://javascript.plainenglish.io/the-future-is-now-how-spring-boot-4-0-and-framework-7-redefine-resilience-and-performance-d22d88a0fdbe
+
 
 ## Docs do Springboot 4
 https://docs.spring.io/spring-boot/index.html
