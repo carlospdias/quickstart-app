@@ -442,5 +442,6 @@ https://javascript.plainenglish.io/the-future-is-now-how-spring-boot-4-0-and-fra
 
 
 ## Docs do Springboot 4
-https://docs.spring.io/spring-boot/index.html
+- https://docs.spring.io/spring-boot/index.html
+- https://www.youtube.com/watch?v=ENpq2J5yQ8Y
 
